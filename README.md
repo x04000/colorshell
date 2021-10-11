@@ -12,7 +12,7 @@
   </b>
   <h6>
     x1b is code for colorize outputs,<br>
-    works on python print and shell, but<br>
+    works on outputs like print python, but<br>
     dont work in shell because is custom<br>
     HEX/RGB, for work on shell you need<br>
     to specify a <a href='https://talyian.github.io/ansicolors/'>predefined color</a><br><br>
