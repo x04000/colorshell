@@ -1,5 +1,8 @@
+# ──────────────────────────────────────────────────────────────────────────────
 
 from sys import argv, exit
+
+# ──────────────────────────────────────────────────────────────────────────────
 
 def makergb(a):
 
@@ -8,6 +11,8 @@ def makergb(a):
 def makex1b(a:tuple):
 
     return f'\\x1b[38;2;{a[0]};{a[1]};{a[2]}m'
+
+# ──────────────────────────────────────────────────────────────────────────────
 
 def main():
 
@@ -33,7 +38,7 @@ def main():
                         )
                     + '\n')
 
-            elif len(_a.split) == 3:
+            elif len(_a.split()) == 3:
 
                 print('\n' +\
                     makex1b(
@@ -53,7 +58,7 @@ def main():
                         ).replace('3', '4', 1)
                     + '\n')
 
-            elif len(_a.split) == 3:
+            elif len(_a.split()) == 3:
 
                 print('\n' +\
                     makex1b(
@@ -94,7 +99,7 @@ def main():
                         )
                     + '\n')
 
-            elif len(_a.split) == 3:
+            elif len(_a.split()) == 3:
 
                 print('\n' +\
                     makex1b(
@@ -119,20 +124,22 @@ def main():
                         ).replace('3', '4', 1)
                     + '\n')
 
-            elif len(_a.split) == 3:
+            elif len(_a.split()) == 3:
 
                 print('\n' +\
                     makex1b(
                         tuple(
                             _a.replace('(', '').replace(')', '').replace(',', '')
-                            ).replace('3', '4', 1)
-                    )
+                            )
+                    ).replace('3', '4', 1)
                     + '\n')
 
             else:
 
                 print('\nError\n')
                 exit(1)
+
+# ──────────────────────────────────────────────────────────────────────────────
 
 try:
 
@@ -141,3 +148,4 @@ try:
 except KeyboardInterrupt:
 
     exit(130)
+    
