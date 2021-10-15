@@ -1,8 +1,8 @@
 
 <div align='center'>
-  <h1>ColorShell <img src='https://emoji.gg/assets/emoji/3034-kittyvibe.gif' width='30'> ─ 1.5 </h1>
+  <h1>ColorShell <img src='https://emoji.gg/assets/emoji/3034-kittyvibe.gif' width='30'> ─ 2.8</h1>
   <pre><code><span class="hljs-attribute">Planned for v2:
-  setup.sh for setup alias</span></code></pre>
+  idk what 👍‍</span></code></pre>
   <img src='https://github.com/NwRq/private-icons/blob/main/python.svg'> <img src='https://github.com/NwRq/private-icons/blob/main/maintained%20-yes.svg'>
 </div><br>
 
