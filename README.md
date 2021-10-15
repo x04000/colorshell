@@ -6,16 +6,16 @@
   <img src='https://github.com/NwRq/private-icons/blob/main/python.svg'> <img src='https://github.com/NwRq/private-icons/blob/main/maintained%20-yes.svg'>
 </div><br>
 
-<p><table align='right'><tr><th><img src='https://github.com/NwRq/colorshell/blob/main/img/preview.gif' align='center'></table></tr></th>
+<p><table><tr><th><img src='https://github.com/NwRq/colorshell/blob/main/img/preview.gif' align='center'></table></tr></th>
   <b>
       This script converts HEX and RGB code to x1b
   </b>
   <h6>
     x1b is code for colorize outputs,<br>
     works on outputs like print python, but<br>
-    dont work in shell because is custom<br>
-    HEX/RGB, for work on shell you need<br>
-    to specify a <a href='https://talyian.github.io/ansicolors/'>predefined color</a><br><br>
+    dont work in some langs<br>
+    You aslo can use 8 color mode:<br>
+    <a href='https://talyian.github.io/ansicolors/'>predefined color</a> uses the terminal palette<br><br>
     All you need to do, is put the code<br>
     after the text, like this
     <pr><code>print('code' + 'text')</code></pr>
